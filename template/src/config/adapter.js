@@ -27,7 +27,6 @@ exports.model = {
   }
 };
 
-
 /**
  * logger adapter config
  * @type {Object}

@@ -13,6 +13,6 @@ describe('elasticsearch service', () => {
     const args = ['剩菜剩饭'];
     const result = await func.apply(service, args);
     // 因为没有elasticsearch服务，返回的结果是[]。要正确开启功能请连接可访问的elasticsearch服务
-    expect(_.isEmpty(result)).toBe([]);
+    expect(_.isEmpty(result)).toBe(true);
   });
 });

@@ -15,6 +15,6 @@ describe('首页index', () => {
   it('首页:index/index', async() => {
     const res = await koaApp.get('/index/index');
     expect(res.status).toBe(200);
-    expect(res.body).toBe('OK');
+    expect(res.body.data).toBe('OK');
   });
 });

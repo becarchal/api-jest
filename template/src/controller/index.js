@@ -19,7 +19,6 @@ module.exports = class extends Base {
    * @apiUse UserNotFoundError
    */
   indexAction() {
-    this.body = 'OK';
-    // return this.success(result);
+    return this.success('OK');
   }
 };

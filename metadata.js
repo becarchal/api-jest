@@ -69,6 +69,7 @@ module.exports = {
       ["vscode", ".vscode"]
     ]
   },
+  "skipCompile": "vscode/**/*.*",
   "controller": {
     "default": [
       ["src/controller/index.js", "src/[moduleName]/controller/[action].js"],

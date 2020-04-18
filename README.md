@@ -5,5 +5,5 @@ API Template
 ## How to use
 
 ```sh
-thinkjs new demo api
+thinkjs new demo becarchal/api-jest
 ```

@@ -41,6 +41,7 @@ module.exports = {
       ["pm2.json", "pm2.json"],
       ["production.js", "production.js"],
       ["README.md", "README.md"]
+      [".vscode", ".vscode"]
     ],
     "multiModule": [
       ["src/adapter", "src/common/adapter"],
@@ -64,7 +65,8 @@ module.exports = {
       ["package.json", "package.json"],
       ["pm2.json", "pm2.json"],
       ["production.js", "production.js"],
-      ["README.md", "README.md"]
+      ["README.md", "README.md"],
+      [".vscode", ".vscode"]
     ]
   },
   "controller": {

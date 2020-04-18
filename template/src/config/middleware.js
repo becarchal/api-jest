@@ -46,14 +46,14 @@ module.exports = [
       limit: '5mb'
     }
   },
-  // {
-  //   handle: 'router',
-  //   options: {
-  //     defaultModule: 'api',
-  //     defaultController: 'index',
-  //     defaultAction: 'index'
-  //   }
-  // },
+  {
+    handle: 'router',
+    options: {
+      // defaultModule: 'api',
+      defaultController: 'index',
+      defaultAction: 'index'
+    }
+  },
   'logic',
   'controller'
 ];

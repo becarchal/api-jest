@@ -31,6 +31,7 @@ module.exports = {
       ["src/service", "src/service"],
       ["test", "test"],
       ["www", "www"],
+      [".vscode", ".vscode"],
       ["babel.config.js", "babel.config.js"],
       ["development.js", "development.js"],
       ["eslintrc", ".eslintrc"],
@@ -40,8 +41,7 @@ module.exports = {
       ["package.json", "package.json"],
       ["pm2.json", "pm2.json"],
       ["production.js", "production.js"],
-      ["README.md", "README.md"]
-      [".vscode", ".vscode"]
+      ["README.md", "README.md"],
     ],
     "multiModule": [
       ["src/adapter", "src/common/adapter"],
@@ -56,6 +56,7 @@ module.exports = {
       ["src/service", "src/[moduleName]/service"],
       ["test", "test/[moduleName]"],
       ["www", "www"],
+      [".vscode", ".vscode"],
       ["babel.config.js", "babel.config.js"],
       ["development.js", "development.js"],
       ["eslintrc", ".eslintrc"],
@@ -65,8 +66,7 @@ module.exports = {
       ["package.json", "package.json"],
       ["pm2.json", "pm2.json"],
       ["production.js", "production.js"],
-      ["README.md", "README.md"],
-      [".vscode", ".vscode"]
+      ["README.md", "README.md"]
     ]
   },
   "controller": {

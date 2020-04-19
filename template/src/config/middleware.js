@@ -49,8 +49,8 @@ module.exports = [
   {
     handle: 'router',
     options: {
-      "<% if (defaultModule) { %>defaultModule": "<%= defaultModule %>",
-      "<% } %>defaultController": "index",
+      '<% if (defaultModule) { %>defaultModule': '<%= defaultModule %>',
+      '<% } %>defaultController': 'index',
       defaultAction: 'index',
     }
   },

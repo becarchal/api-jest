@@ -10,7 +10,8 @@
     "lint-fix": "eslint --fix src/",
     "apidoc": "apidoc -i src/api/controller -o apidoc/ -t apidoctemplate/ && serve -p 5500 -s apidoc/",
     "test": "jest --detectOpenHandles",
-    "cov": "jest --coverage --detectOpenHandles"
+    "cov": "jest --coverage --detectOpenHandles",
+    "test:watch": "jest --coverage --watchAll --detectOpenHandles"
   },
   "dependencies": {
     "dayjs": "^1.8.24",

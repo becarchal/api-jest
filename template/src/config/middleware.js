@@ -49,9 +49,9 @@ module.exports = [
   {
     handle: 'router',
     options: {
-      // defaultModule: 'api',
-      defaultController: 'index',
-      defaultAction: 'index'
+      "<% if (defaultModule) { %>defaultModule": "<%= defaultModule %>",
+      "<% } %>defaultController": "index",
+      defaultAction: 'index',
     }
   },
   'logic',

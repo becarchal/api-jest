@@ -1,4 +1,6 @@
 module.exports = {
+  // prompts的变量数据将会写入到metalsmith的metalsmith.metadata()，最终作为模板变量注入到ejs中
+  // 因此可通过prompts注入全局变量用于模板条件渲染
   "prompts": {
     "name": {
       "type": "string",
@@ -13,10 +15,6 @@ module.exports = {
       "type": "string",
       "message": "Author"
     },
-    "babel": {
-      "type": "confirm",
-      "message": "Do you want to turn on babel?"
-    }
   },
   "new": {
     "default": [

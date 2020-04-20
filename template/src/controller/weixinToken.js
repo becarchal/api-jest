@@ -16,7 +16,7 @@ module.exports = class weixinToken extends Base {
           return Promise.resolve(data);
         } else {
           // 没获取到值--从微信服务器端获取,并往下传递
-          const WeixinSerivce = think.service('weixin', 'api');
+          const WeixinSerivce = think.service('weixin'<% if (locals.defaultModule) { %>, '<%= defaultModule %>'<% } %>);
           return WeixinSerivce.updateAccessToken();
         }
       }).then(function(data) {

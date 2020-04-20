@@ -20,7 +20,7 @@ module.exports = class extends think.Controller {
     // 根据token值获取用户id
     think.token = this.ctx.header['api-token'] || '';
 
-    const tokenSerivce = think.service('token', 'api');
+    const tokenSerivce = think.service('token'<% if (locals.defaultModule) { %>, '<%= defaultModule %>'<% } %>);
     // 全局think.userId赋值处
     think.userId = await tokenSerivce.getUserId();
 

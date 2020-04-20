@@ -1,7 +1,6 @@
 // thinkjs单元测试文档 https://thinkjs.org/zh-cn/doc/3.0/unitest.html
 // jest 测试文档 https://jestjs.io/docs/en/getting-started
 // Jest单元测试的几个指标 https://www.jianshu.com/p/1a89b2df6423
-// import { think } from 'thinkjs';
 import { koaApp } from '../helpers/app';
 
 // const basePath = `/api/`;

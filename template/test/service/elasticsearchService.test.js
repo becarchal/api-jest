@@ -1,8 +1,8 @@
 // thinkjs单元测试文档 https://thinkjs.org/zh-cn/doc/3.0/unitest.html
 // ejs https://ejs.bootcss.com/#features
 import _ from 'lodash';
-import { think } from 'thinkjs';
-import '../helpers/app';
+import { think } from '../helpers/app';
+
 describe('elasticsearch service', () => {
   const service = think.service('elasticsearch'<% if (locals.defaultModule) { %>, '<%= defaultModule %>'<% } %>);
   const func = service.getWastes;

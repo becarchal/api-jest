@@ -46,7 +46,7 @@ module.exports = [
       limit: '5mb'
     }
   },
-  {
+  {// https://thinkjs.org/zh-cn/doc/3.0/router.html
     handle: 'router',
     options: { 
       <% if (locals.defaultModule) { %>defaultModule: '<%= defaultModule %>',<% } %>
